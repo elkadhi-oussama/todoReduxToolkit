@@ -1,0 +1,23 @@
+.todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 2% auto;
+
+}
+.todo input{
+    width: 70%;
+}
+.todo h1{
+    width: 30%;
+    cursor: pointer;
+}
+.showed{
+    text-decoration: line-through;
+}
+
+.btnTodo>*{
+    margin-right: 30px;
+    cursor: pointer;
+}
